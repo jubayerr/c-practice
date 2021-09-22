@@ -2,11 +2,12 @@
 
 int main()
 {
-    if (5 < 10) {
-         printf("I love my country!");
-    } else {
-        printf("nothing");
-    }
+    char cname[20];
+
+    printf("Your country : ");
+    scanf("%s", cname);
+
+    printf("I love my country %s!", cname);
 
     return 0;
 }
